@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusMQ.Adapter.NServiceBus3", "ServiceBusMQ.Adapter.NServiceBus3\ServiceBusMQ.Adapter.NServiceBus3.csproj", "{621B324B-DD0A-4485-B98B-04F4B5AA40A5}"
 EndProject
@@ -29,19 +29,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{46293319
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusMQ.Adapter.Azure.ServiceBus2.2", "ServiceBusMQ.Adapter.Azure.ServiceBus2.2\ServiceBusMQ.Adapter.Azure.ServiceBus2.2.csproj", "{2FCEA428-2D8C-4048-BFFD-9121364C9950}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9CA4C8A1-9B1C-48C1-BCA0-BA66CD66742D}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusMQ.NServiceBus.MSMQ", "ServiceBusMQ.NServiceBus.MSMQ\ServiceBusMQ.NServiceBus.MSMQ.csproj", "{6ED21653-1B3B-4EED-A233-45F3B41A4288}"
 EndProject
 Global
-	GlobalSection(CodealikeProperties) = postSolution
-		SolutionGuid = b16c7e50-5079-47e1-a9ea-7e7f1b0613ef
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -104,5 +94,11 @@ Global
 		{18D55792-07BB-451E-90BC-3018C41E6E49} = {46293319-D0A9-41AF-8274-75A369CFB1B3}
 		{2FCEA428-2D8C-4048-BFFD-9121364C9950} = {46293319-D0A9-41AF-8274-75A369CFB1B3}
 		{6ED21653-1B3B-4EED-A233-45F3B41A4288} = {A19DC022-5E1F-4F39-A775-50514EA0A63B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51098DB9-D2FE-419F-A50E-E68882EBB469}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = b16c7e50-5079-47e1-a9ea-7e7f1b0613ef
 	EndGlobalSection
 EndGlobal
